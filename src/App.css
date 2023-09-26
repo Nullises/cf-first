@@ -1,0 +1,62 @@
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: Raleway, sans-serif;
+  font-weight: 100;
+  font-size: 3em;
+  text-align: center;
+}
+
+h5 {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1em;
+  text-align: justify;
+}
+
+#category {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+}
+
+#title {
+  letter-spacing: 0.4px;
+  font-size: 22px;
+  font-size: 1.375rem;
+  line-height: 1.13636;
+}
+
+#banner {
+  margin: 20px;
+  height: 800px;
+  background-color: #eceff1 !important;
+}
+#editor {
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.uk-navbar-container {
+  background: #f5f5f5 !important;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.uk-card-body {
+  background-color: #eceff1 !important;
+}
+
+.uk-section {
+  background-color: #eceff1 !important;
+}
+
+img:hover {
+  opacity: 1;
+  transition: opacity 0.25s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+#__next {
+  background-color: #eceff1 !important;
+}
