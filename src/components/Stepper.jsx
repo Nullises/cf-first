@@ -1,4 +1,5 @@
 import * as React from "react";
+import PropTypes from "prop-types";
 import Box from "@mui/material/Box";
 import Stepper from "@mui/material/Stepper";
 import Step from "@mui/material/Step";
@@ -10,11 +11,8 @@ import Typography from "@mui/material/Typography";
 import Stack from "@mui/material/Stack";
 import { Avatar } from "@mui/material";
 import { Link } from "@mui/material";
-import stepsEscatologico from "../utils/steps-escatologico";
 
-//const steps = stepsEscatologico;
-
-export default function VerticalLinearStepper({ steps }) {
+function VerticalLinearStepper({ steps }) {
   const [activeStep, setActiveStep] = React.useState(0);
 
   const handleNext = () => {
@@ -113,3 +111,9 @@ export default function VerticalLinearStepper({ steps }) {
     </Box>
   );
 }
+
+VerticalLinearStepper.propTypes = {
+  steps: PropTypes.array,
+};
+
+export default VerticalLinearStepper;

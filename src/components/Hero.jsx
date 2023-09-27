@@ -1,8 +1,13 @@
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import jesus from "/jesus.png";
+import usePath from "../hooks/usePath";
 
 function Hero() {
+  const currentPath = usePath();
+  const isSeminar =
+    "Estudie a su ritmo cada tema y solo haga clic en Continuar cuando sienta que ya lo ha entendido por completo.";
+
   return (
     <Box
       sx={{
@@ -22,10 +27,10 @@ function Hero() {
         </Box>
         <h1>CRISTIANISMO FELIZ (SEMINARIOS)</h1>
         <h5>
-          Seminarios hechos por inspiración del Espíritu Santo para la
-          instrucción espiritual de su pueblo. Estudie a su ritmo cada tema y
-          solo haga clic en Continuar cuando sienta que ya lo ha entendido por
-          completo
+          {`Seminarios hechos por inspiración del Espíritu Santo para la
+          instrucción espiritual de su pueblo. ${
+            currentPath != "/" ? isSeminar : ""
+          }`}
         </h5>
       </Container>
     </Box>
