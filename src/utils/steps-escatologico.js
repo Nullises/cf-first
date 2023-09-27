@@ -2,7 +2,7 @@ const stepsEscatologico = [
   {
     label: "ENTIENDO: QUE SOY PARTE DEL ISRAEL ESPIRITUAL",
     description: [
-      "Entendiendo el porqué no debo ser judaizante, ya que soy parte del Israel espiritual (La Iglesia Cristiana)",
+      "Entendiendo el porqué no debo ser judaizante, es decir, adoptar los rudimentos de la ley (guardar el sábado, las costumbres hebreas, las fiestas hebreas, los alimentos permitidos) ya que soy parte del Israel espiritual (La Iglesia Cristiana). El Estado de Israel actual no es el pueblo de Dios, sino la Iglesia Cristiana. Dios hizo de judíos y gentiles una sola nación llamada Israel",
     ],
     photo:
       "https://images.unsplash.com/photo-1612375411759-b35b2f080448?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
