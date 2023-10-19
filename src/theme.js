@@ -19,6 +19,7 @@ export const cf_theme = {
   typography: {
     caption: {
       fontFamily: "Roboto",
+      color: "#000000",
     },
     body1: {
       fontFamily: "Roboto",

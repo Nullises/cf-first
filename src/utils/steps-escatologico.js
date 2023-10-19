@@ -11,12 +11,20 @@ const stepsEscatologico = [
         url: "https://cristianismo-feliz-front.vercel.app/article/no-seamos-judaizantes",
         label: "No seamos Judaizantes",
       },
+      {
+        url: "https://cristianismo-feliz-front.vercel.app/article/todo-israel-sera-salvo-el-malentendido-romanos-11",
+        label: "¿Todo Israel será salvo? | El malentendido Romanos 11",
+      },
+    ],
+    videos: [
+      {
+        src: "https://www.youtube.com/embed/6ZKPPF6BY5g",
+      },
     ],
     topic: "No seamos judaizantes",
-    nextStepDisabled: true,
   },
   {
-    label: "RECHAZO: EL FALSO EVANGELIO (PROXIMAMENTE)",
+    label: "RECHAZO: EL FALSO EVANGELIO",
     description: [
       "La doctrina de la prosperidad no es bíblica",
       "La doctrina del dominionismo no es Bíblica",
@@ -25,10 +33,16 @@ const stepsEscatologico = [
     ],
     photo:
       "https://images.unsplash.com/photo-1554672723-b208dc85134f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
+    links: [
+      {
+        url: "https://cristianismo-feliz-front.vercel.app/article/dios-no-es-un-banco",
+        label: "Dios no es un banco",
+      },
+    ],
     topic: "Falsas doctrinas",
   },
   {
-    label: "ENTIENDO: QUE SER CRISTIANO ME TRAERÁ PERSECUCIÓN (PROXIMAMENTE)",
+    label: "ENTIENDO: QUE SER CRISTIANO ME TRAERÁ PERSECUCIÓN",
     description: [
       "La Iglesia siempre ha sido perseguida",
       "El mundo nos odia al igual que a Jesucristo",
@@ -37,28 +51,17 @@ const stepsEscatologico = [
     ],
     photo:
       "https://images.unsplash.com/photo-1543525238-54e3d131f7ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
+    links: [
+      {
+        label:
+          "Mensaje urgente: Todavía no es el fin | Entendiendo Mateo 24 y Lucas 21",
+        url: "https://cristianismo-feliz-front.vercel.app/article/mensaje-urgente-todavia-no-es-el-fin-mateo-24-6",
+      },
+    ],
     topic: "Persecución",
   },
   {
-    label: "ENTIENDO: EL ANTICRISTO (PROXIMAMENTE)",
-    description: [
-      "El anticristo definido por el apóstol Pablo",
-      "Las 4 bestias y el Gigante",
-      "El cuerno pequeño (Daniel 7)",
-      "El cuerno pequeño (Daniel 8)",
-      "El Rey del norte (Daniel 11-12)",
-      "Gog de Magog (Ezequiel 38-39)",
-      "La abominación desoladora (Mateo 24)",
-      "El jinete del caballo blanco (Apocalipsis 6)",
-      "La Bestia salvaje que sube del abismo (Apocalipsis)",
-      "El Falso Profeta (su sacerdote)",
-    ],
-    photo:
-      "https://images.unsplash.com/photo-1638009270386-f5e0e5b29a6f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80",
-    topic: "Anticristo",
-  },
-  {
-    label: "ENTIENDO: LA GRAN TRIBULACIÓN (PROXIMAMENTE)",
+    label: "ENTIENDO: LA GRAN TRIBULACIÓN",
     description: [
       "¿Qué será La Gran Tribulación?",
       "¿Quién ocasionará La Gran Tribulación?",
@@ -76,7 +79,7 @@ const stepsEscatologico = [
     topic: "Gran Tribulación",
   },
   {
-    label: "ENTIENDO: LA GRAN RAMERA (BABILONIA LA GRANDE)(PROXIMAMENTE)",
+    label: "ENTIENDO: LA GRAN RAMERA | BABILONIA LA GRANDE",
     description: [
       "¿Quién es Babilonia La Grande?",
       "Los 7 montes sobre los cuales se sienta",
@@ -93,9 +96,29 @@ const stepsEscatologico = [
       },
     ],
     topic: "Babilonia La Grande",
+    nextStepDisabled: true,
   },
   {
-    label: "ENTIENDO: EL ARMAGGEDÓN (PROXIMAMENTE)",
+    label: "ENTIENDO: EL ANTICRISTO",
+    description: [
+      "El anticristo definido por el apóstol Pablo",
+      "Las 4 bestias y el Gigante",
+      "El cuerno pequeño (Daniel 7)",
+      "El cuerno pequeño (Daniel 8)",
+      "El Rey del norte (Daniel 11-12)",
+      "Gog de Magog (Ezequiel 38-39)",
+      "La abominación desoladora (Mateo 24)",
+      "El jinete del caballo blanco (Apocalipsis 6)",
+      "La Bestia salvaje que sube del abismo (Apocalipsis)",
+      "El Falso Profeta (su sacerdote)",
+    ],
+    photo:
+      "https://images.unsplash.com/photo-1638009270386-f5e0e5b29a6f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80",
+    topic: "Anticristo",
+    comingSoon: true,
+  },
+  {
+    label: "ENTIENDO: EL ARMAGGEDÓN",
     description: [
       "El día de la Ira del DIos Todopoderoso, según:",
       "- Jesús y sus apóstoles",
@@ -107,9 +130,10 @@ const stepsEscatologico = [
     photo:
       "https://images.unsplash.com/photo-1588281345136-9893252095bd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2832&q=80",
     topic: "Armageddon",
+    comingSoon: true,
   },
   {
-    label: "ENTIENDO: EL REINO Y LOS JUICIOS DE DIOS (PROXIMAMENTE)",
+    label: "ENTIENDO: EL REINO Y LOS JUICIOS DE DIOS",
     description: [
       "El Rapto",
       "El primer juicio divino",
@@ -123,9 +147,10 @@ const stepsEscatologico = [
     photo:
       "https://images.unsplash.com/photo-1548266652-99cf27701ced?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2268&q=80",
     topic: "El Reino",
+    comingSoon: true,
   },
   {
-    label: "ENTIENDO: LA SANA DOCTRINA (PROXIMAMENTE)",
+    label: "ENTIENDO: LA SANA DOCTRINA",
     description: [
       "Debo vivir en santidad",
       "Debo dejar de lado la actitud farisea (hipócrita)",
@@ -135,6 +160,7 @@ const stepsEscatologico = [
     photo:
       "https://images.unsplash.com/photo-1504052434569-70ad5836ab65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
     topic: "Santidad",
+    comingSoon: true,
   },
 ];
 

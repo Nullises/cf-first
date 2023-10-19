@@ -9,8 +9,9 @@ import Button from "@mui/material/Button";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
 import Stack from "@mui/material/Stack";
-import { Avatar } from "@mui/material";
+import { Avatar, Badge } from "@mui/material";
 import { Link } from "@mui/material";
+import { styled } from "@mui/material/styles";
 
 function VerticalLinearStepper({ steps }) {
   const [activeStep, setActiveStep] = React.useState(0);
@@ -27,20 +28,44 @@ function VerticalLinearStepper({ steps }) {
     setActiveStep(0);
   };
 
+  const StyledBadge = styled(Badge)(({ theme }) => ({
+    "& .MuiBadge-badge": {
+      right: -50,
+      top: 20,
+      border: `2px solid ${theme.palette.primary.main}`,
+      padding: "0 4px",
+    },
+  }));
+
   return (
     <Box>
       <Stepper activeStep={activeStep} orientation="vertical">
         {steps.map((step, index) => (
           <Step key={step.label}>
-            <StepLabel
-              optional={
-                index === steps.length - 1 ? (
-                  <Typography variant="caption">Último Tema</Typography>
-                ) : null
-              }
-            >
-              {step.label}
-            </StepLabel>
+            {step.comingSoon ? (
+              <StyledBadge badgeContent="Próximamente">
+                <StepLabel
+                  optional={
+                    index === steps.length - 1 ? (
+                      <Typography variant="caption">Último Tema</Typography>
+                    ) : null
+                  }
+                >
+                  {step.label}
+                </StepLabel>
+              </StyledBadge>
+            ) : (
+              <StepLabel
+                optional={
+                  index === steps.length - 1 ? (
+                    <Typography variant="caption">Último Tema</Typography>
+                  ) : null
+                }
+              >
+                {step.label}
+              </StepLabel>
+            )}
+
             <StepContent>
               <Box
                 sx={{
@@ -61,6 +86,7 @@ function VerticalLinearStepper({ steps }) {
                   ))}
                   {step.links?.map((item, index) => (
                     <Link
+                      color="inherit"
                       variant="caption"
                       key={index}
                       href={item.url}
@@ -69,6 +95,14 @@ function VerticalLinearStepper({ steps }) {
                     >
                       {item.label}
                     </Link>
+                  ))}
+                  {step.videos?.map((video, key) => (
+                    <iframe
+                      key={key}
+                      width="420"
+                      height="345"
+                      src={video.src}
+                    ></iframe>
                   ))}
                 </Stack>
               </Box>
