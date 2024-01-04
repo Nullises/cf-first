@@ -123,7 +123,7 @@ const stepsEscatologico = [
     photo:
       "https://images.unsplash.com/photo-1638009270386-f5e0e5b29a6f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80",
     topic: "Anticristo",
-    nextStepDisabled: false,
+    nextStepDisabled: true,
   },
   {
     label: "ENTIENDO: EL ARMAGGEDÓN",
