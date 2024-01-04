@@ -57,6 +57,10 @@ const stepsEscatologico = [
           "Mensaje urgente: Todavía no es el fin | Entendiendo Mateo 24 y Lucas 21",
         url: "https://cristianismo-feliz-front.vercel.app/article/mensaje-urgente-todavia-no-es-el-fin-mateo-24-6",
       },
+      {
+        label: "Trigo Selecto | El porqué tenemos que pasar por pruebas",
+        url: "https://cristianismo-feliz-front.vercel.app/article/trigo-selecto",
+      },
     ],
     topic: "Persecución",
   },
@@ -94,9 +98,12 @@ const stepsEscatologico = [
         url: "https://cristianismo-feliz-front.vercel.app/article/salgan-de-ella-pueblo-mio",
         label: "Babilonia La Grande",
       },
+      {
+        url: "https://cristianismo-feliz-front.vercel.app/article/la-gran-ciudad-y-la-gran-ramera",
+        label: "La Gran Ciudad y La Gran Ramera",
+      },
     ],
     topic: "Babilonia La Grande",
-    nextStepDisabled: true,
   },
   {
     label: "ENTIENDO: EL ANTICRISTO",
@@ -110,12 +117,13 @@ const stepsEscatologico = [
       "La abominación desoladora (Mateo 24)",
       "El jinete del caballo blanco (Apocalipsis 6)",
       "La Bestia salvaje que sube del abismo (Apocalipsis)",
+      "La Bestia persigue a los dos testigos",
       "El Falso Profeta (su sacerdote)",
     ],
     photo:
       "https://images.unsplash.com/photo-1638009270386-f5e0e5b29a6f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80",
     topic: "Anticristo",
-    comingSoon: true,
+    nextStepDisabled: false,
   },
   {
     label: "ENTIENDO: EL ARMAGGEDÓN",
@@ -154,6 +162,7 @@ const stepsEscatologico = [
     description: [
       "Debo vivir en santidad",
       "Debo dejar de lado la actitud farisea (hipócrita)",
+      "Entiendo la verdad de la condición de los muertos",
       "Debo predicar las buenas nuevas del reino",
       "Debo preparar nuevos cristianos verdaderos",
     ],
