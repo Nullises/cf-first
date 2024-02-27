@@ -21,7 +21,7 @@ const stepsEscatologico = [
         src: "https://www.youtube.com/embed/6ZKPPF6BY5g",
       },
       {
-        src: "https://www.youtube.com/watch?v=_H_GGKZlbnc",
+        src: "https://www.youtube.com/embed/_H_GGKZlbnc",
       },
     ],
     topic: "No seamos judaizantes",
@@ -44,7 +44,7 @@ const stepsEscatologico = [
     ],
     videos: [
       {
-        src: "https://www.youtube.com/watch?v=vEJ5NFN5ehE&t=1s",
+        src: "https://www.youtube.com/embed/vEJ5NFN5ehE",
       },
     ],
     topic: "Falsas doctrinas",
@@ -72,7 +72,7 @@ const stepsEscatologico = [
     ],
     videos: [
       {
-        src: "https://www.youtube.com/watch?v=xoik1DswEx4&t=1s",
+        src: "https://www.youtube.com/embed/xoik1DswEx4",
       },
     ],
     topic: "Persecución",
@@ -137,10 +137,10 @@ const stepsEscatologico = [
       "https://images.unsplash.com/photo-1638009270386-f5e0e5b29a6f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80",
     videos: [
       {
-        src: "https://www.youtube.com/watch?v=cBXyaOhvBPc&t=2s",
+        src: "https://www.youtube.com/embed/cBXyaOhvBPcs",
       },
       {
-        src: "https://www.youtube.com/watch?v=ivSCV3c1xGQ&t=2s",
+        src: "https://www.youtube.com/embed/ivSCV3c1xGQ",
       },
     ],
     topic: "Anticristo",
