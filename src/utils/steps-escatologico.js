@@ -70,11 +70,6 @@ const stepsEscatologico = [
         url: "https://cristianismo-feliz-front.vercel.app/article/trigo-selecto",
       },
     ],
-    videos: [
-      {
-        src: "https://www.youtube.com/embed/xoik1DswEx4",
-      },
-    ],
     topic: "Persecución",
   },
   {
@@ -91,6 +86,11 @@ const stepsEscatologico = [
       {
         url: "https://cristianismo-feliz-front.vercel.app/article/si-pasaremos-por-la-gran-tribulacion",
         label: "Sí Pasaremos por la Gran Tribulación",
+      },
+    ],
+    videos: [
+      {
+        src: "https://www.youtube.com/embed/xoik1DswEx4",
       },
     ],
     topic: "Gran Tribulación",
