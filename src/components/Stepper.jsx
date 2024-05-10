@@ -12,6 +12,7 @@ import Stack from "@mui/material/Stack";
 import { Avatar, Badge } from "@mui/material";
 import { Link } from "@mui/material";
 import { styled } from "@mui/material/styles";
+import parse from "html-react-parser";
 
 function VerticalLinearStepper({ steps }) {
   const [activeStep, setActiveStep] = React.useState(0);
@@ -79,11 +80,36 @@ function VerticalLinearStepper({ steps }) {
                   sx={{ width: 150, height: 150 }}
                 />
                 <Stack spacing={2} sx={{ marginLeft: 2 }}>
-                  {step.description.map((item, index) => (
-                    <Typography variant="caption" key={index}>
-                      {item}
-                    </Typography>
+                  {step.description?.map((item, index) => (
+                    <div key={index}>
+                      {item.title && (
+                        <Typography
+                          className="text-justify"
+                          variant="lead"
+                          key={index}
+                        >
+                          {parse(`${item.title}`)}
+                        </Typography>
+                      )}
+                      {item.desc && (
+                        <Typography
+                          className="text-justify"
+                          variant="caption"
+                          key={index}
+                        >
+                          {parse(`${item.desc}`)}
+                        </Typography>
+                      )}
+                    </div>
                   ))}
+
+                  {(step.links?.length > 0 || step.videos?.length > 0) && (
+                    <>
+                      <Typography variant="h6" className="mt-2 mb-2">
+                        Material Complementario:
+                      </Typography>
+                    </>
+                  )}
                   {step.links?.map((item, index) => (
                     <Link
                       color="inherit"
